@@ -1,6 +1,6 @@
 package binary
 
-var Reference = true
+var Reference = false
 var (
 	BigEndian ByteOrder = bigEndian{}
 	// LittleEndian ByteOrder = littleEndian{}
