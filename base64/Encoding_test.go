@@ -2,7 +2,6 @@ package base64
 
 import "fmt"
 
-func init() { Reference = false }
 func ExampleEncoding() {
 	var plaintext = []byte("Hello, World")
 	var enc = NewEncoding("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/")
